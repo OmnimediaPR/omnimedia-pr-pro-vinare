@@ -1,0 +1,132 @@
+{
+  "obdobi": "Květen 2026",
+  "obdobi_key": "2026_05",
+  "aktualizovano": "2026-05-31",
+  "vinarstvi_mesice": {
+    "nazev": "Lahofer",
+    "dosah": 3387624,
+    "duvod": "Nejvyšší mediální zásah mezi sledovanými vinařstvími v období květen 2026."
+  },
+  "lifestyle": [
+    {
+      "nazev": "Růžová, sekty & šumivé",
+      "skore": 100,
+      "velikost": "vysoká",
+      "trend": "up",
+      "pr_uhel": "S příchodem léta poptávejte zařazení svého rosé do letních tipů redakcí.",
+      "puvod": {
+        "obecne": 76,
+        "cr": 16,
+        "zahranicni": 8
+      }
+    },
+    {
+      "nazev": "Vinařské akce & festivaly",
+      "skore": 84,
+      "velikost": "vysoká",
+      "trend": "down",
+      "pr_uhel": "Plánujete akci? Dejte vědět s předstihem do regionálních kalendářů.",
+      "puvod": {
+        "obecne": 76,
+        "cr": 20,
+        "zahranicni": 4
+      }
+    },
+    {
+      "nazev": "Udržitelnost & terroir / příběh",
+      "skore": 36,
+      "velikost": "střední",
+      "trend": "down",
+      "pr_uhel": "Vyprávějte konkrétní příběh své půdy a rodiny — terroir prodává.",
+      "puvod": {
+        "obecne": 62,
+        "cr": 24,
+        "zahranicni": 14
+      }
+    },
+    {
+      "nazev": "Vinařská turistika & zážitky",
+      "skore": 22,
+      "velikost": "nízká",
+      "trend": "down",
+      "pr_uhel": "Pozvěte média na komentovanou prohlídku sklepa — sezóna otevřených dveří táhne.",
+      "puvod": {
+        "obecne": 58,
+        "cr": 36,
+        "zahranicni": 6
+      }
+    },
+    {
+      "nazev": "Svatomartinské & mladá vína",
+      "skore": 11,
+      "velikost": "nízká",
+      "trend": "none",
+      "pr_uhel": "Sezónní vlna — připravte si svatomartinský příběh už na podzim dopředu.",
+      "puvod": {
+        "obecne": 81,
+        "cr": 12,
+        "zahranicni": 7
+      }
+    },
+    {
+      "nazev": "Víno & gastronomie / snoubení",
+      "skore": 7,
+      "velikost": "nízká",
+      "trend": "none",
+      "pr_uhel": "Nabídněte redakcím tip na snoubení vašich vín se sezónními pokrmy.",
+      "puvod": {
+        "obecne": 63,
+        "cr": 26,
+        "zahranicni": 11
+      }
+    },
+    {
+      "nazev": "Nealko & lehká vína / wellness",
+      "skore": 5,
+      "velikost": "nízká",
+      "trend": "none",
+      "pr_uhel": "Máte-li lehčí či nízkoalkoholické víno, je ideální čas ho mediálně představit.",
+      "puvod": {
+        "obecne": 50,
+        "cr": 33,
+        "zahranicni": 17
+      }
+    },
+    {
+      "nazev": "Ocenění & soutěže",
+      "skore": 4,
+      "velikost": "nízká",
+      "trend": "none",
+      "pr_uhel": "Medaile je důvod k tiskové zprávě — spojte ji s příběhem vína i vinaře.",
+      "puvod": {
+        "obecne": 75,
+        "cr": 25,
+        "zahranicni": 0
+      }
+    },
+    {
+      "nazev": "Přírodní / bio / oranžová vína",
+      "skore": 3,
+      "velikost": "nízká",
+      "trend": "none",
+      "pr_uhel": "Příběh přírodního vinařství funguje — nabídněte návštěvu vinice při práci naživo.",
+      "puvod": {
+        "obecne": 80,
+        "cr": 0,
+        "zahranicni": 20
+      }
+    },
+    {
+      "nazev": "Design, etikety & branding",
+      "skore": 1,
+      "velikost": "nízká",
+      "trend": "none",
+      "pr_uhel": "Redesign etikety je vizuální story — nabídněte ho lifestyle a designovým médiím.",
+      "puvod": {
+        "obecne": 0,
+        "cr": 0,
+        "zahranicni": 100
+      }
+    }
+  ]
+}

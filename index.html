@@ -140,7 +140,7 @@ section{padding:45px 0}
 
 /* Recruitment banner */
 .banner{padding:0 0 4px}
-.banner .box{background:var(--tint);border:1px solid #f6c9d6;border-radius:20px;padding:32px 44px;display:grid;grid-template-columns:1fr auto;gap:36px;align-items:center}
+.banner .box{background:var(--tint);border:1px solid #f6c9d6;border-radius:20px;padding:30px 34px;display:grid;grid-template-columns:1fr;gap:18px;align-items:start}
 .banner .tag{display:inline-block;background:var(--red);color:#fff;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:6px 14px;border-radius:20px;margin-bottom:16px}
 .banner h2{font-size:clamp(22px,2.8vw,30px);margin-bottom:14px}
 .banner p{margin:0;color:var(--text);font-size:16px}
@@ -239,6 +239,66 @@ section{padding:45px 0}
   .steps{grid-template-columns:1fr}
   .header-inner{grid-template-columns:auto 1fr auto}
 }
+
+/* ===== Layout: hlavní obsah 2/3 + Vinařský radar 1/3 vpravo ===== */
+.rd-layout{max-width:var(--container);margin:0 auto;padding:0 28px;
+  display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:44px;align-items:start}
+.rd-main{min-width:0}
+.rd-main .container{max-width:none;padding-left:0;padding-right:0;margin-left:0;margin-right:0}
+.rd-aside{position:sticky;top:96px;align-self:start;max-height:calc(100vh - 116px);overflow:auto;
+  background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px 18px;
+  box-shadow:0 18px 44px rgba(0,0,0,.07);margin-top:34px}
+.rd-aside::-webkit-scrollbar{width:8px}
+.rd-aside::-webkit-scrollbar-thumb{background:#e3e3e6;border-radius:8px}
+
+/* ===== Vinařský radar (postranní, kompaktní) ===== */
+#rd-radar .rd-kicker{display:block;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--red)}
+#rd-radar .rd-title{font-size:12.5px;font-weight:600;color:var(--muted);margin:6px 0 3px;line-height:1.3}
+#rd-radar .rd-period{font-size:12px;color:var(--muted);margin:0 0 14px}
+#rd-radar .rd-period b{color:var(--ink)}
+.rd-summary{font-size:12.5px;color:var(--text);line-height:1.55;background:var(--soft);border-radius:10px;padding:12px 14px;margin:0 0 14px}
+.rd-winery{background:var(--tint);border:1px solid #f6c9d6;border-radius:12px;padding:13px 15px;margin:18px 0 0}
+.rd-winery .rd-wlbl{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--red)}
+.rd-winery .rd-wname{font-size:16px;font-weight:800;color:var(--ink);margin:5px 0 4px;line-height:1.2}
+.rd-winery .rd-why{font-size:12px;color:var(--text);margin:0 0 7px;line-height:1.5}
+.rd-winery .rd-wreach{font-size:11px;color:var(--muted)}
+.rd-winery .rd-wreach b{color:var(--ink);font-size:13px}
+.rd-lbl{display:block;font-size:18px;font-weight:800;letter-spacing:-.2px;text-transform:none;color:var(--ink);margin:14px 0 2px;line-height:1.2}
+.rd-sub{display:block;font-size:11px;font-weight:500;color:var(--muted);line-height:1.3;margin:0 0 11px}
+.rd-legend{display:flex;flex-wrap:wrap;gap:7px 12px;font-size:10.5px;color:var(--muted);margin:0 0 10px}
+.rd-legend span{display:inline-flex;align-items:center;gap:5px}
+.rd-legend i{width:9px;height:9px;border-radius:2px}
+.rd-item{padding:11px 0;border-bottom:1px solid var(--line)}
+.rd-item:last-child{border-bottom:0}
+.rd-item .rd-itop{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.rd-item .rd-nm{font-size:13.5px;font-weight:700;color:var(--ink);line-height:1.25}
+.rd-bar{position:relative;height:6px;border-radius:5px;background:#eee;overflow:hidden;margin:7px 0}
+.rd-bar>i{position:absolute;top:0;bottom:0;left:0;border-radius:5px;background:#c4c4cd}
+.rd-pr{font-size:12px;color:var(--text);line-height:1.45;margin:6px 0 0}
+.rd-pr b{color:var(--red)}
+.rd-orig{display:flex;height:6px;border-radius:4px;overflow:hidden;margin-top:8px}
+.rd-orig>i{height:100%}
+.rd-trend{font-size:11px;font-weight:700;white-space:nowrap;display:inline-flex;gap:3px;align-items:center}
+.rd-trend.up{color:#3fa86a}
+.rd-trend.down{color:#e08585}
+.rd-trend.none{color:#b3b3ba}
+.rd-cta{display:block;text-align:center;margin-top:18px;background:#fff;color:var(--red);border:2px solid var(--red);font-weight:700;font-size:12px;letter-spacing:.4px;text-transform:uppercase;padding:11px;border-radius:30px}
+.rd-cta:hover{background:var(--red);color:#fff;text-decoration:none}
+
+@media(max-width:1100px){
+  /* užší obrazovky: radar spadne POD hlavní obsah (full width), neodsouvá ho a neláme se */
+  .rd-layout{grid-template-columns:1fr;gap:0;padding:0}
+  .rd-main .container{max-width:var(--container);padding-left:28px;padding-right:28px;margin:0 auto}
+  .rd-aside{position:static;max-height:none;overflow:visible;margin:18px 28px 0;border-radius:16px;
+    box-shadow:none;background:var(--soft)}
+  /* na plné šířce využij prostor: lifestyle do 2 sloupců */
+  .rd-items{display:grid;grid-template-columns:1fr 1fr;column-gap:30px}
+  .rd-items .rd-item:nth-last-child(2):nth-child(odd){border-bottom:0}
+}
+@media(max-width:560px){
+  .rd-items{display:block}
+  .rd-aside{margin-left:16px;margin-right:16px}
+}
 </style>
 </head>
 <body>
@@ -257,6 +317,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <span aria-hidden="true"></span>
   </div>
 </header>
+
+<!-- ============ LAYOUT: obsah (2/3) + radar (1/3) ============ -->
+<div class="rd-layout">
+<div class="rd-main">
 
 <!-- ============ HERO ============ -->
 <section class="hero">
@@ -413,6 +477,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 
+</div><!-- /rd-main -->
+
+<!-- ============ VINAŘSKÝ RADAR (postranní sloupec) ============ -->
+<aside class="rd-aside"><div id="rd-radar"></div></aside>
+
+</div><!-- /rd-layout -->
+
 <!-- ============ FOOTER ============ -->
 <footer class="site-footer">
   <div class="container">
@@ -553,6 +624,62 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     el.setAttribute('href', 'mailto:' + addr + (subj ? '?subject=' + subj : ''));
     if (el.getAttribute('data-text')) el.textContent = addr;
   });
+})();
+</script>
+
+<script>
+/* Vinařský radar — vykreslí postranní modul z měsíčně aktualizovaného JSON
+   (radar/vino_radar.json). Web jen čte hotová data, nic nescrapuje. */
+(function () {
+  var box = document.getElementById('rd-radar');
+  if (!box) return;
+  function trend(t){
+    if (t === 'up')   return '<span class="rd-trend up">▲ roste</span>';
+    if (t === 'down') return '<span class="rd-trend down">▼ klesá</span>';
+    return '<span class="rd-trend none">– stabilní</span>';
+  }
+  function orig(o){
+    return '<div class="rd-orig">'+
+      '<i style="width:'+o.cr+'%;background:#c98a99"></i>'+
+      '<i style="width:'+o.obecne+'%;background:#d8d8de"></i>'+
+      '<i style="width:'+o.zahranicni+'%;background:#9aa0a8"></i></div>';
+  }
+  function reach(n){
+    if (n>=1e6) return (n/1e6).toFixed(1).replace('.0','').replace('.',',')+' mil.';
+    if (n>=1e3) return Math.round(n/1e3)+' tis.';
+    return ''+n;
+  }
+  function item(t, withPr){
+    return '<div class="rd-item">'+
+      '<div class="rd-itop"><span class="rd-nm">'+t.nazev+'</span>'+trend(t.trend)+'</div>'+
+      '<div class="rd-bar"><i style="width:'+t.skore+'%"></i></div>'+
+      (withPr && t.pr_uhel ? '<p class="rd-pr"><b>PR tip:</b> '+t.pr_uhel+'</p>' : '')+
+      orig(t.puvod)+
+    '</div>';
+  }
+  function render(d){
+    var w = d.vinarstvi_mesice;
+    box.innerHTML =
+      '<span class="rd-kicker">Vinařský radar</span>'+
+      '<div class="rd-title">O čem se píše ve světě vína</div>'+
+      '<p class="rd-period">Vydání <b>'+d.obdobi+'</b> · aktualizováno měsíčně</p>'+
+      '<span class="rd-lbl">Komunikační inspirace</span>'+
+      '<span class="rd-sub">podle četnosti mediálního výskytu</span>'+
+      '<div class="rd-legend">'+
+        '<span><i style="background:#c98a99"></i>ČR &amp; Morava</span>'+
+        '<span><i style="background:#d8d8de"></i>obecně</span>'+
+        '<span><i style="background:#9aa0a8"></i>zahraniční</span>'+
+      '</div>'+
+      '<div class="rd-items">'+d.lifestyle.map(function(t){return item(t, true);}).join('')+'</div>'+
+      (w ? '<div class="rd-winery"><span class="rd-wlbl">🏆 TOP vinařství v médiích</span>'+
+           '<div class="rd-wname">'+w.nazev+'</div><p class="rd-why">'+w.duvod+'</p>'+
+           '<div class="rd-wreach">Mediální zásah: <b>'+reach(w.dosah)+'</b> osob</div></div>' : '')+
+      '<a class="rd-cta" href="#kontakt">Chcete vědět víc?</a>';
+  }
+  fetch('radar/vino_radar.json', {cache:'no-cache'})
+    .then(function(r){ return r.json(); }).then(render)
+    .catch(function(){ /* když data nejsou, modul se prostě nezobrazí */
+      var a = box.closest('.rd-aside'); if (a) a.style.display = 'none'; });
 })();
 </script>
 
