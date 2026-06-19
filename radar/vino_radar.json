@@ -67,66 +67,6 @@
         "cr": 12,
         "zahranicni": 7
       }
-    },
-    {
-      "nazev": "Víno & gastronomie / snoubení",
-      "skore": 7,
-      "velikost": "nízká",
-      "trend": "none",
-      "pr_uhel": "Nabídněte redakcím tip na snoubení vašich vín se sezónními pokrmy.",
-      "puvod": {
-        "obecne": 63,
-        "cr": 26,
-        "zahranicni": 11
-      }
-    },
-    {
-      "nazev": "Nealko & lehká vína / wellness",
-      "skore": 5,
-      "velikost": "nízká",
-      "trend": "none",
-      "pr_uhel": "Máte-li lehčí či nízkoalkoholické víno, je ideální čas ho mediálně představit.",
-      "puvod": {
-        "obecne": 50,
-        "cr": 33,
-        "zahranicni": 17
-      }
-    },
-    {
-      "nazev": "Ocenění & soutěže",
-      "skore": 4,
-      "velikost": "nízká",
-      "trend": "none",
-      "pr_uhel": "Medaile je důvod k tiskové zprávě — spojte ji s příběhem vína i vinaře.",
-      "puvod": {
-        "obecne": 75,
-        "cr": 25,
-        "zahranicni": 0
-      }
-    },
-    {
-      "nazev": "Přírodní / bio / oranžová vína",
-      "skore": 3,
-      "velikost": "nízká",
-      "trend": "none",
-      "pr_uhel": "Příběh přírodního vinařství funguje — nabídněte návštěvu vinice při práci naživo.",
-      "puvod": {
-        "obecne": 80,
-        "cr": 0,
-        "zahranicni": 20
-      }
-    },
-    {
-      "nazev": "Design, etikety & branding",
-      "skore": 1,
-      "velikost": "nízká",
-      "trend": "none",
-      "pr_uhel": "Redesign etikety je vizuální story — nabídněte ho lifestyle a designovým médiím.",
-      "puvod": {
-        "obecne": 0,
-        "cr": 0,
-        "zahranicni": 100
-      }
     }
   ]
 }
