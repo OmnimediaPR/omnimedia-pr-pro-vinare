@@ -13,48 +13,98 @@
       "skore": 100,
       "velikost": "vysoká",
       "trend": "up",
-      "pr_uhel": "S příchodem léta poptávejte zařazení svého rosé do letních tipů redakcí.",
       "puvod": {
         "obecne": 76,
         "cr": 16,
         "zahranicni": 8
-      }
+      },
+      "hot": "Letní bublinky festivaly a šumivá vína jako osvěžení do veder",
+      "pr_uhel": "Uspořádej vlastní 'bublinky evening' na vinici nebo zahradě sklípku.",
+      "fresh": true
     },
     {
       "nazev": "Vinařské akce & festivaly",
       "skore": 84,
       "velikost": "vysoká",
       "trend": "down",
-      "pr_uhel": "Plánujete akci? Dejte vědět s předstihem do regionálních kalendářů.",
       "puvod": {
         "obecne": 76,
         "cr": 20,
         "zahranicni": 4
-      }
+      },
+      "hot": "Otevřené sklepy v červnu — vinaři lákají na cimbál, degustace a zážitky",
+      "pr_uhel": "Vyhlás vlastní den otevřených sklepů s programem a pozvánkou na sítích.",
+      "fresh": true
     },
     {
       "nazev": "Udržitelnost & terroir / příběh",
       "skore": 36,
       "velikost": "střední",
       "trend": "down",
-      "pr_uhel": "Vyprávějte konkrétní příběh své půdy a rodiny — terroir prodává.",
       "puvod": {
         "obecne": 62,
         "cr": 24,
         "zahranicni": 14
-      }
+      },
+      "hot": "Oteplování přepisuje vinařskou mapu — nové regiony a odrůdy jako téma",
+      "pr_uhel": "Vyprávěj příběh svého terroiru a jak klima formuje charakter tvých vín.",
+      "fresh": true
     },
     {
       "nazev": "Vinařská turistika & zážitky",
       "skore": 22,
       "velikost": "nízká",
       "trend": "down",
-      "pr_uhel": "Pozvěte média na komentovanou prohlídku sklepa — sezóna otevřených dveří táhne.",
       "puvod": {
         "obecne": 58,
         "cr": 36,
         "zahranicni": 6
-      }
+      },
+      "hot": "Kombinace vína s kulturou — hudba, design a unikátní zážitky ve vinicích",
+      "pr_uhel": "Nabídni zážitkový večer: živá hudba nebo umění přímo ve vinici či sklepě.",
+      "fresh": true
+    },
+    {
+      "nazev": "Víno & gastronomie / snoubení",
+      "skore": 7,
+      "velikost": "nízká",
+      "trend": "none",
+      "puvod": {
+        "obecne": 63,
+        "cr": 26,
+        "zahranicni": 11
+      },
+      "hot": "Průvodci párováním vína s jídlem — zájem o základní pravidla roste",
+      "pr_uhel": "Vytvoř jednoduchý obsah 'k čemu se hodí naše víno' — recept nebo tip šéfkuchaře.",
+      "fresh": true
+    },
+    {
+      "nazev": "Nealko & lehká vína / wellness",
+      "skore": 5,
+      "velikost": "nízká",
+      "trend": "none",
+      "puvod": {
+        "obecne": 50,
+        "cr": 33,
+        "zahranicni": 17
+      },
+      "hot": "Mladí chtějí víno v plechovce a nízkoalkoholické varianty — trend sílí",
+      "pr_uhel": "Komunikuj lehčí nebo alternativní formát svého vína jako moderní a zdravější volbu.",
+      "fresh": true
+    },
+    {
+      "nazev": "Ocenění & soutěže",
+      "skore": 4,
+      "velikost": "nízká",
+      "trend": "none",
+      "puvod": {
+        "obecne": 75,
+        "cr": 25,
+        "zahranicni": 0
+      },
+      "hot": "",
+      "pr_uhel": "Medaile je důvod k tiskové zprávě — spojte ji s příběhem vína i vinaře.",
+      "fresh": false
     }
   ]
 }
