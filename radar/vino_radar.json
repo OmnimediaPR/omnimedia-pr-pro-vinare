@@ -1,67 +1,67 @@
 {
-  "obdobi": "Červen 2026",
-  "obdobi_key": "2026_06",
-  "aktualizovano": "2026-06-30",
+  "obdobi": "Srpen 2026",
+  "obdobi_key": "2026_08",
+  "aktualizovano": "2026-08-31",
   "vinarstvi_mesice": {
-    "nazev": "Lahofer",
-    "dosah": 4565490,
-    "duvod": "Nejvyšší mediální zásah mezi sledovanými vinařstvími v období červen 2026."
+    "nazev": "Bohemia Sekt",
+    "dosah": 4683214,
+    "duvod": "Nejvyšší mediální zásah mezi sledovanými vinařstvími v období srpen 2026."
   },
   "lifestyle": [
     {
-      "nazev": "Růžová, sekty & šumivé",
+      "nazev": "Vinařské akce & festivaly",
       "skore": 100,
       "velikost": "vysoká",
-      "trend": "down",
+      "trend": "up",
       "puvod": {
-        "obecne": 73,
-        "cr": 14,
-        "zahranicni": 13
+        "obecne": 70,
+        "cr": 25,
+        "zahranicni": 5
       },
-      "hot": "Kir a francouzské aperitivy zažívají renesanci jako letní rituál",
-      "pr_uhel": "Představ vlastní aperitivní moment s růžovým nebo šumivým vínem jako letní rituál.",
+      "hot": "Vinobraní jako brána do regionu — město, podzemí, příběh místa",
+      "pr_uhel": "Propoj vinobraní s tajemstvím lokality — tip na skrytá místa kolem vinařství.",
       "fresh": true
     },
     {
-      "nazev": "Vinařské akce & festivaly",
-      "skore": 92,
-      "velikost": "vysoká",
-      "trend": "none",
+      "nazev": "Růžová, sekty & šumivé",
+      "skore": 45,
+      "velikost": "střední",
+      "trend": "up",
       "puvod": {
-        "obecne": 66,
-        "cr": 24,
-        "zahranicni": 10
+        "obecne": 70,
+        "cr": 18,
+        "zahranicni": 12
       },
-      "hot": "Vinařství jako kulturní centrum regionu — hudba na vinicích táhne",
-      "pr_uhel": "Pozvi na živou hudbu přímo ve vinici nebo sklepě — vinařství = kulturní místo léta.",
+      "hot": "Nealkoholické bublinky jako plnohodnotná alternativa s vlastní příležitostí",
+      "pr_uhel": "Ukaž, ke kterým momentům a jídlům nealko bublinky skvěle sedí — bez omluv.",
       "fresh": true
     },
     {
       "nazev": "Udržitelnost & terroir / příběh",
-      "skore": 43,
-      "velikost": "střední",
-      "trend": "none",
-      "puvod": {
-        "obecne": 51,
-        "cr": 33,
-        "zahranicni": 16
-      },
-      "hot": "Regionální gastronomie a terroir jako zážitek — restaurace a víno z jednoho místa",
-      "pr_uhel": "Propoj své víno s lokální kuchyní — ukaž terroir skrze jídlo a místo, ne jen sklenici.",
-      "fresh": true
-    },
-    {
-      "nazev": "Vinařská turistika & zážitky",
       "skore": 33,
       "velikost": "střední",
       "trend": "up",
       "puvod": {
-        "obecne": 58,
-        "cr": 39,
-        "zahranicni": 3
+        "obecne": 59,
+        "cr": 35,
+        "zahranicni": 6
       },
-      "hot": "Otevřené sklepy a výlety za vínem jako hlavní letní tip pro cestovatele",
-      "pr_uhel": "Nabídni konkrétní výletní itinerář s vínem — inspiruj se formátem 'kam vyrazit v červenci'.",
+      "hot": "Master of Wine jako hlas: víno si tě najde — osobní příběh cesty k vínu",
+      "pr_uhel": "Nech promluvit člověka z týmu — jak ho víno našlo, ne jak ho studoval.",
+      "fresh": true
+    },
+    {
+      "nazev": "Vinařská turistika & zážitky",
+      "skore": 25,
+      "velikost": "nízká",
+      "trend": "up",
+      "puvod": {
+        "obecne": 41,
+        "cr": 50,
+        "zahranicni": 9
+      },
+      "hot": "Září = roadtrip sezóna — vinice jako cíl prodlouženého léta",
+      "pr_uhel": "Navrhni jednodenní vinařský roadtrip z nejbližšího města přímo ke svým vinicím.",
       "fresh": true
     },
     {
@@ -70,23 +70,37 @@
       "velikost": "nízká",
       "trend": "none",
       "puvod": {
-        "obecne": 82,
-        "cr": 0,
+        "obecne": 22,
+        "cr": 60,
         "zahranicni": 18
       },
-      "hot": "Debata o dotacích a svobodě malých vinařů — naturální víno jako nezávislý postoj",
-      "pr_uhel": "Komunikuj příběh nezávislosti a vlastní cesty — naturální víno jako volba, ne kompromis.",
+      "hot": "Naturální víno jako součást netradiční městské kultury a zážitkové scény",
+      "pr_uhel": "Spoj naturální víno s neočekávaným kontextem — art, hudba, guerilla ochutnávka.",
+      "fresh": true
+    },
+    {
+      "nazev": "Nealko & lehká vína",
+      "skore": 3,
+      "velikost": "nízká",
+      "trend": "none",
+      "puvod": {
+        "obecne": 75,
+        "cr": 0,
+        "zahranicni": 25
+      },
+      "hot": "Nealko bublinky jako společenský rituál — kdy a jak je servírovat",
+      "pr_uhel": "Vytvoř konkrétní příležitostní průvodce: nealko bublinky ke snídani, brunch, aperitiv.",
       "fresh": true
     },
     {
       "nazev": "Ocenění & soutěže",
-      "skore": 5,
+      "skore": 2,
       "velikost": "nízká",
       "trend": "none",
       "puvod": {
-        "obecne": 64,
-        "cr": 24,
-        "zahranicni": 12
+        "obecne": 50,
+        "cr": 33,
+        "zahranicni": 17
       },
       "hot": "",
       "pr_uhel": "Medaile je důvod k tiskové zprávě — spojte ji s příběhem vína i vinaře.",
