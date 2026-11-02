@@ -1,106 +1,120 @@
 {
-  "obdobi": "Srpen 2026",
-  "obdobi_key": "2026_08",
-  "aktualizovano": "2026-08-31",
+  "obdobi": "Říjen 2026",
+  "obdobi_key": "2026_10",
+  "aktualizovano": "2026-10-31",
   "vinarstvi_mesice": {
     "nazev": "Bohemia Sekt",
-    "dosah": 4683214,
-    "duvod": "Nejvyšší mediální zásah mezi sledovanými vinařstvími v období srpen 2026."
+    "dosah": 4067650,
+    "duvod": "Nejvyšší mediální zásah mezi sledovanými vinařstvími v období říjen 2026."
   },
   "lifestyle": [
     {
-      "nazev": "Vinařské akce & festivaly",
+      "nazev": "Svatomartinské & mladá vína",
       "skore": 100,
       "velikost": "vysoká",
-      "trend": "up",
+      "trend": "none",
       "puvod": {
-        "obecne": 70,
-        "cr": 25,
-        "zahranicni": 5
+        "obecne": 85,
+        "cr": 9,
+        "zahranicni": 6
       },
-      "hot": "Vinobraní jako brána do regionu — město, podzemí, příběh místa",
-      "pr_uhel": "Propoj vinobraní s tajemstvím lokality — tip na skrytá místa kolem vinařství.",
+      "hot": "Svatomartinské hody jako rituál — husí hody + otevírání lahví jako zážitek",
+      "pr_uhel": "Pozvěte na živý obřad otevírání svatomartinského vína s husí specialitou.",
+      "fresh": true
+    },
+    {
+      "nazev": "Vinařské akce & festivaly",
+      "skore": 79,
+      "velikost": "vysoká",
+      "trend": "down",
+      "puvod": {
+        "obecne": 78,
+        "cr": 18,
+        "zahranicni": 4
+      },
+      "hot": "Vinobraní pro seniory — inkluzivní formát akcí pro opomíjené publikum",
+      "pr_uhel": "Uspořádejte degustaci nebo prohlídku sklepa speciálně pro starší generaci.",
       "fresh": true
     },
     {
       "nazev": "Růžová, sekty & šumivé",
-      "skore": 45,
+      "skore": 60,
       "velikost": "střední",
-      "trend": "up",
+      "trend": "none",
       "puvod": {
-        "obecne": 70,
-        "cr": 18,
-        "zahranicni": 12
+        "obecne": 85,
+        "cr": 6,
+        "zahranicni": 9
       },
-      "hot": "Nealkoholické bublinky jako plnohodnotná alternativa s vlastní příležitostí",
-      "pr_uhel": "Ukaž, ke kterým momentům a jídlům nealko bublinky skvěle sedí — bez omluv.",
+      "hot": "Příběh za bublinkami — jak vznikl styl, kdo ho přinesl, co ho formovalo",
+      "pr_uhel": "Vyprávějte původ svého šumivého: inspirace, člověk, místo — jako mini-seriál.",
+      "fresh": true
+    },
+    {
+      "nazev": "Branding, marketing & umění",
+      "skore": 48,
+      "velikost": "střední",
+      "trend": "none",
+      "puvod": {
+        "obecne": 83,
+        "cr": 11,
+        "zahranicni": 6
+      },
+      "hot": "Zážitkové exkurze s degustací jako marketingový produkt — kudy z nudy formát",
+      "pr_uhel": "Nabídněte vinařství jako zážitkový výlet na platformách typu Kudy z nudy.",
       "fresh": true
     },
     {
       "nazev": "Udržitelnost & terroir / příběh",
-      "skore": 33,
-      "velikost": "střední",
-      "trend": "up",
+      "skore": 18,
+      "velikost": "nízká",
+      "trend": "down",
       "puvod": {
-        "obecne": 59,
-        "cr": 35,
-        "zahranicni": 6
+        "obecne": 61,
+        "cr": 29,
+        "zahranicni": 10
       },
-      "hot": "Master of Wine jako hlas: víno si tě najde — osobní příběh cesty k vínu",
-      "pr_uhel": "Nech promluvit člověka z týmu — jak ho víno našlo, ne jak ho studoval.",
+      "hot": "Česká vína jsou měřitelně chladnější než Bordeaux — data jako příběh terroir",
+      "pr_uhel": "Ukažte konkrétní čísla o své poloze/klimatu jako argument pro charakter vína.",
       "fresh": true
     },
     {
       "nazev": "Vinařská turistika & zážitky",
-      "skore": 25,
+      "skore": 15,
       "velikost": "nízká",
-      "trend": "up",
+      "trend": "down",
       "puvod": {
-        "obecne": 41,
-        "cr": 50,
-        "zahranicni": 9
+        "obecne": 69,
+        "cr": 25,
+        "zahranicni": 6
       },
-      "hot": "Září = roadtrip sezóna — vinice jako cíl prodlouženého léta",
-      "pr_uhel": "Navrhni jednodenní vinařský roadtrip z nejbližšího města přímo ke svým vinicím.",
+      "hot": "Objevování méně známých vinařských regionů — polská vinařství jako inspirace",
+      "pr_uhel": "Prezentujte se jako 'skrytý klenot' — neobjevená destinace hodná výletu.",
       "fresh": true
     },
     {
-      "nazev": "Přírodní / bio / oranžová vína",
+      "nazev": "Víno & gastronomie / snoubení",
       "skore": 5,
       "velikost": "nízká",
       "trend": "none",
       "puvod": {
-        "obecne": 22,
-        "cr": 60,
-        "zahranicni": 18
-      },
-      "hot": "Naturální víno jako součást netradiční městské kultury a zážitkové scény",
-      "pr_uhel": "Spoj naturální víno s neočekávaným kontextem — art, hudba, guerilla ochutnávka.",
-      "fresh": true
-    },
-    {
-      "nazev": "Nealko & lehká vína",
-      "skore": 3,
-      "velikost": "nízká",
-      "trend": "none",
-      "puvod": {
-        "obecne": 75,
+        "obecne": 70,
         "cr": 0,
-        "zahranicni": 25
+        "zahranicni": 30
       },
-      "hot": "Nealko bublinky jako společenský rituál — kdy a jak je servírovat",
-      "pr_uhel": "Vytvoř konkrétní příležitostní průvodce: nealko bublinky ke snídani, brunch, aperitiv.",
+      "hot": "Podzimní a dušičkové tradice Evropy jako inspirace pro sezónní párování vín",
+      "pr_uhel": "Spárujte víno s podzimní tradicí nebo regionální specialitou — storytelling na talíři.",
       "fresh": true
     },
     {
       "nazev": "Ocenění & soutěže",
-      "skore": 2,
+      "skore": 3,
       "velikost": "nízká",
       "trend": "none",
       "puvod": {
-        "obecne": 50,
-        "cr": 33,
-        "zahranicni": 17
+        "obecne": 59,
+        "cr": 41,
+        "zahranicni": 0
       },
       "hot": "",
       "pr_uhel": "Medaile je důvod k tiskové zprávě — spojte ji s příběhem vína i vinaře.",
